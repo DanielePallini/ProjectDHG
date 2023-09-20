@@ -7,7 +7,7 @@ I file OVA delle due macchine virtuali sono disponibili al seguente link di goog
 Una volta installate, è possibile avviare le due macchine e testare l'intero sistema.
 
 La prima macchina virtuale, denominata Dual-homed Host, svolge i compiti di uno Screening Router e di un Bastion Host. Al suo avvio, l'utente può accedere ad uno dei due account disponibili: 
-* **screening**: account con permessi di root, necessario per l’implementazione e la gestione delle policy e della sicurezza di tutta l’infrastruttura. È riservato all’amministratore di sistema. La password per poter accedere a tale account è: admin.
+* **screening**: account con permessi di root, necessario per l’implementazione e la gestione delle policy e della sicurezza di tutta l’infrastruttura. È riservato all’amministratore di sistema. La password per poter accedere a tale account è: univpm2223.
 * **guest**: account senza permessi di root, predisposto per l'accesso via SSH degli utenti. La password per poter accedere a tale account è: guest.
 
 La seconda macchina virtuale, la macchina "Client", simula il comportamento di una macchina appartenente alla rete interna. Al suo avvio, l'utente può accedere ad uno dei due account disponibili:
