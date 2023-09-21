@@ -11,7 +11,7 @@ La prima macchina virtuale, denominata Dual-homed Host, svolge i compiti di uno 
 * **guest**: account senza permessi di root, predisposto per l'accesso via SSH degli utenti. La password per poter accedere a tale account è: guestscreening.
 
 La seconda macchina virtuale, la macchina "Client", simula il comportamento di una macchina appartenente alla rete interna. Al suo avvio, l'utente può accedere ad uno dei due account disponibili:
-* **client**: account con permessi di root, necessario per la gestione e il controllo dei file presenti sulla macchina. È riservato all’amministratore di sistema. La password per poter accedere a tale account è: gruppo8.
+* **client**: account con permessi di root, necessario per la gestione e il controllo dei file presenti sulla macchina. È riservato all’amministratore di sistema. La password per poter accedere a tale account è: gruppootto.
 * **guest**: account senza permessi di root, predisposto per l’accesso via SSH degli utenti. La password per poter accedere a tale account è: guestclient.
 
 Tramite queste macchine, sarà possibile eseguire personalmente alcuni test sull'infrastruttura. Alcuni esempi di test sono riportati nel Capitolo 4 del file PDF.
