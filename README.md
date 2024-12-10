@@ -1,4 +1,18 @@
-# Guida all'installazione delle macchine virtuali
+[English Version](README.en.md)
+# Descrizione del Progetto
+L’obiettivo è la progettazione e l’implementazione di un’infrastruttura
+sicura attraverso l’utilizzo di macchine virtuali. L’implementazione
+sarà realizzata tramite la configurazione di un firewall e di sistemi di rilevamento
+delle intrusioni. Sarà necessaria anche l’installazione e la configurazione di
+un software in grado di filtrare correttamente i pacchetti in entrata e in uscita
+secondo le regole e le policies definite. Inoltre, sarà configurato un software finalizzato
+al monitoraggio e al registro delle modifiche effettuate ai file critici presenti
+nel sistema. Dovrà essere possibile accedere dall’esterno alle funzionalità fornite
+dal sistema, attraverso un meccanismo di autenticazione. L’infrastruttura dovrà
+essere robusta, ossia in grado di prevenire e resistere a diversi tipi di attacchi
+comuni.
+
+## Guida all'installazione delle macchine virtuali
 
 Per installare le macchine virtuali che sono alla base dell'infrastruttura sicura, è necessario installare sul proprio computer un software per l'esecuzione di macchine virtuali, come _VirtualBox_.
 
